@@ -1,8 +1,6 @@
-メープルクラウド開発チーム						白坂千春
-
 2019年7月21日
 
-	Hyper Text Mine Sweeper Game Protocol (HTOGCP/1.0)
+	Hyper Text Mine Sweeper Game Protocol (HTMSGP/1.0)
 
 概要
 	この文書はIMSがネットワークでどのように動作するか解説する。
@@ -37,8 +35,6 @@
 			指定したパスワードで部屋にログインする。
 		OPEN <x> <y>
 			指定した場所のマスを開く。
-		FLAG <x> <y>
-			指定した場所のマスに旗を立てる。
 		CLOSED
 			このコマンドは接続を切断するとき送られる。
 
